@@ -66,3 +66,26 @@ Makefile:
 
 .code GoFromC/Makefile
 
+* CUDA
+
+kernel.h:
+
+.code CUDA/kernel.h
+
+kernel.cu:
+
+.code CUDA/kernel.cu
+
+* CUDA
+
+goCode.go:
+
+.code CUDA/goCode.go
+
+* CUDA
+
+Makefile:
+
+.code CUDA/Makefile
+
+
