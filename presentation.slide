@@ -1,0 +1,68 @@
+Go, C and CUDA
+11 Dec 2014
+Tags: go golang cuda c
+
+Andrzej Sulecki
+asulecki@gmail.com
+
+* What can we do
+
+-Call C from Go
+-Call Go from C from Go
+-Call CUDA from C from Go
+
+* What can't we do
+
+-Call Go from C
+-Call CUDA from Go
+
+* Calling C from Go
+
+simple.go:
+
+.code CfromGoSimple/simple.go
+
+* Calling C from Go 2
+
+cCode.h:
+
+.code CfromGo/cCode.h
+
+cCode.c:
+
+.code CfromGo/cCode.c
+
+* Calling C from Go 2
+
+goCode.go:
+
+.code CfromGo/goCode.go
+
+* Calling C from Go 2
+
+Makefile:
+
+.code CfromGo/Makefile
+
+* Calling Go from C from Go
+
+cCode.h:
+
+.code GoFromC/cCode.h
+
+cCode.c:
+
+.code GoFromC/cCode.c
+
+* Calling Go from C from Go
+
+goCode.go:
+
+.code GoFromC/goCode.go
+
+* Calling Go from C from Go
+
+Makefile:
+
+.code GoFromC/Makefile
+
